@@ -55,7 +55,7 @@ ul {
 }
 .main-list {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -87,4 +87,24 @@ p {
   width: 200px;
   overflow: hidden;
   text-align: left;
+}
+
+.whole-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.large-icon {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+  height: 300px;
+  width: auto;
+}
+
+.details-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

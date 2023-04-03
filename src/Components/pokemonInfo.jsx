@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const PokemonInfo = ({ name, url }) => {
   const [pokemon, setPokemon] = useState(null);
@@ -41,31 +42,33 @@ const PokemonInfo = ({ name, url }) => {
     <div>
       {pokemon ? (
         <div>
-          <li className="main-list" key={name}>
-            <img
-              className="icons"
-              src={pokemon.sprites.front_default}
-              alt={`Small icon for ${name} pokemon`}
-            />
-            <h2 className="pokemon-name">{capitalizeFirstLetter(name)}</h2>
-            <div className="pokemon-text">
-              <div className="type-box">
-                <h4>Type(s):</h4>
-                {types.map((type) => (
-                  <p> {capitalizeFirstLetter(type)} </p>
-                ))}
+          <Link to={`/pokemonDetails/${pokemon.name}`} key={pokemon.nmae}>
+            <li className="main-list" key={name}>
+              <img
+                className="icons"
+                src={pokemon.sprites.front_default}
+                alt={`Small icon for ${name} pokemon`}
+              />
+              <h2 className="pokemon-name">{capitalizeFirstLetter(name)}</h2>
+              <div className="pokemon-text">
+                <div className="type-box">
+                  <h4>Type(s):</h4>
+                  {types.map((type) => (
+                    <p> {capitalizeFirstLetter(type)} </p>
+                  ))}
+                </div>
+                <div className="height-box">
+                  <h4> Height (m):</h4>
+                  <p>{height} </p>
+                </div>
+                <div>
+                  <h4> Weight (kg):</h4>
+                  <p>{weight} </p>
+                </div>
               </div>
-              <div className="height-box">
-                <h4> Height (m):</h4>
-                <p>{height} </p>
-              </div>
-              <div>
-                <h4> Weight (kg):</h4>
-                <p>{weight} </p>
-              </div>
-            </div>
-          </li>
-          <hr></hr>
+            </li>
+            <hr></hr>
+          </Link>
         </div>
       ) : null}
     </div>
