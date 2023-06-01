@@ -11,4 +11,5 @@ To set up and run the React app, follow these steps:
 1. Clone the Repository: Begin by cloning the repository containing the React app source code to your local machine. You can use a Git client or download the source code as a ZIP file and extract it.
 2. Install Dependencies: Open your terminal or command prompt and navigate to the project's root directory. Run the following command to install the required dependencies: npm install
 3. Start the Development Server: Once the dependencies are installed, you can start the development server. In your terminal or command prompt, run the following command: npm start
+4. 
 This command will start the development server and open your React app in a web browser. You should see the app running at a local development URL (e.g., http://localhost:3000).
