@@ -1,59 +1,14 @@
-# Web Development Project 6 - My PokeDex
+# Pokedex
+Web application built using React that uses the PokeAPI to be able to search for Pokemon by name and display their type, height, and weight and allowing filters based on type and weight class
 
-Submitted by: Jared Molina
+## Prerequisites
+Before you begin, ensure that you have the following prerequisites installed:
+1. Node.js: React applications require Node.js to be installed on your system. You can download the latest version of Node.js from the official Node.js website or use a package manager like Homebrew (for macOS and Linux) or Chocolatey (for Windows)
+2. Package Manager: NPM (Node Package Manager) is installed automatically with Node.js. Alternatively, you can use Yarn as your package manager. Both NPM and Yarn allow you to install and manage dependencies for your React app.
 
-This web app: Search for pokemon
-
-Time spent: 3 hours spent in total
-
-## Required Features
-
-The following **required** functionality is completed:
-
-- [x] **The app includes at least one unique chart developed using the fetched data that tell an interesting story**
-- [x] **Clicking on an item in the list view displays more details about it**
-- [x] **Clicking on an item has a direct, unique link to that item's detail view page**
-
-The following **optional** features are implemented:
-
-- [ ] The site's customized dashboard contains more content that explains what is interesting about the data
-- [ ] The site allows users to toggle between different data visualizations
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you added to improve the site's functionality!
-
-## Video Walkthrough
-
-Here's a walkthrough of implemented user stories:
-
-<img src='https://i.imgur.com/zwWkFcf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-
-GIF created with ...
-
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+## Getting Started
+To set up and run the React app, follow these steps:
+1. Clone the Repository: Begin by cloning the repository containing the React app source code to your local machine. You can use a Git client or download the source code as a ZIP file and extract it.
+2. Install Dependencies: Open your terminal or command prompt and navigate to the project's root directory. Run the following command to install the required dependencies: npm install
+3. Start the Development Server: Once the dependencies are installed, you can start the development server. In your terminal or command prompt, run the following command: npm start
+This command will start the development server and open your React app in a web browser. You should see the app running at a local development URL (e.g., http://localhost:3000).
